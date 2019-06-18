@@ -72,7 +72,10 @@ img#item-img {
   font-size: 14px;
   line-height: 2;
 }
-
+span.item-title {
+    font-weight: bold;
+    color: #222222;
+}
 span.cart-icon {
   vertical-align: middle;
   font-size: 16px;
