@@ -1,0 +1,82 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700">
+<title>Single Product</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="container">
+    <div class="top-bar-right">
+      <div id="cart-click"> <div class="desktop-show">My Cart</div>
+        <div class="mobile-show"><span class="cart-icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+          width="14" height="14"
+          viewBox="0 0 172 172"
+          style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#cccccc"><path d="M31.64811,14.30534l-24.45345,0.12598l0.06999,14.33333l14.83724,-0.06999l23.61361,56.64746l-8.5804,13.71745c-6.00821,9.59438 1.29744,22.77376 12.61165,22.77376h86.41992v-14.33333h-86.41992c-0.79745,0 -0.8894,-0.15716 -0.46191,-0.83985l8.42643,-13.49349h53.52604c5.203,0 10.005,-2.8258 12.52767,-7.37663l25.8112,-46.48535c2.65883,-4.773 -0.79584,-10.63802 -6.25684,-10.63802h-105.69434zM50.16667,129c-7.91608,0 -14.33333,6.41725 -14.33333,14.33333c0,7.91608 6.41725,14.33333 14.33333,14.33333c7.91608,0 14.33333,-6.41725 14.33333,-14.33333c0,-7.91608 -6.41725,-14.33333 -14.33333,-14.33333zM121.83333,129c-7.91608,0 -14.33333,6.41725 -14.33333,14.33333c0,7.91608 6.41725,14.33333 14.33333,14.33333c7.91608,0 14.33333,-6.41725 14.33333,-14.33333c0,-7.91608 -6.41725,-14.33333 -14.33333,-14.33333z"></path></g></g></svg> 
+        </span></div>
+        ( <span class="cart-count">4</span> )</div>
+  <div id="cart" class="cart">
+        <!-- cart item -->
+        <div class="cart-item">
+          <img src="img/classic-tee.jpg" class="img-fluid" id="item-img" alt="">
+          <div class="item-text">
+            <span class="item-title">Classic Tee</span><br/>
+            <span class="item-quantity">1</span>x <span>$</span><span class="item-price">75.00</span><br />
+            <span>Size: </span><span class="size">L</span>
+          </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="img/classic-tee.jpg" class="img-fluid" id="item-img" alt="">
+            <div class="item-text">
+              <span class="item-title">Classic Tee</span><br/>
+              <span class="item-quantity">3</span>x <span>$</span><span class="item-price">75.00</span><br />
+              <span>Size: </span><span class="size">M</span>
+            </div>
+          </div>
+      </div>  
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="product-content">
+  <div class="container">
+    <div class="inner-wrapper">
+      <div class="col-6 col-m-12">
+        <div class="product-img"><img src="img/classic-tee.jpg" /></div>
+      </div>
+      <div class="col-6 col-m-12">
+        <div class="product-info">
+          <span class="product-title">Classic Tee</span>
+          <div class="pricing"><span>$</span><span class="price">75.00</span></div>
+          <div class="prod-description"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span></div>
+          <div class="variation-wrapper">
+            <span class="size">Size</span><span class="required">*</span> <span id="size-output"></span>
+            <div class="variants">
+              <span id="small">S</span>
+              <span id="medium">M</span>
+              <span id="large">L</span>
+            </div>
+          </div>
+
+          <button id="btn">Add to Cart</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+</body>
+</html>
